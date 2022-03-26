@@ -1,17 +1,17 @@
 <template>
   <div>
-  <a href="https://soundcloud.com/jonny_boi_ist_haesslich"><img src="https://img.icons8.com/ios-filled/1000/000000/soundcloud.png" class="hv orange"/></a>
+  <a href="https://soundcloud.com/jonny_boi_ist_haesslich"><img src="https://img.icons8.com/ios-filled/1000/000000/soundcloud.png" class="hv orange"/><p>Soundcloud</p></a>
   <a href="https://github.com/Jomyy">
   <img src="https://img.icons8.com/ios-glyphs/200/000000/github.png" class="hv pink"/>
+  <p>Github</p>
   </a>
   <a href="https://open.spotify.com/artist/6sP4WzEXeQ8vifuUgr3tZu?si=4c15izOlQq6K3ECywx94UA">
   <img src="https://img.icons8.com/ios-glyphs/200/000000/spotify.png" class="hv green"/>
+  <p>Spotify</p>
   </a>
   <a href="https://www.youtube.com/c/jonny_ist_haesslich">
   <img src="https://img.icons8.com/ios-filled/200/000000/youtube-music.png" class="hv red"/>
-  </a>
-  <a href="https://www.youtube.com/c/jonny_ist_haesslich">
-  <img src="https://img.icons8.com/ios-filled/200/000000/youtube-play.png" class="hv red"/>
+  <p>Youtube</p>
   </a>
   </div>
 </template>
@@ -70,6 +70,32 @@ div{
 }
 img{
   width:6vw;
+}
+a{
+  margin:20px;
+}
+@media only screen and (max-width: 600px) {
+  div{
+    flex-direction: column;
+  }
+  img{
+    width:10vh;
+    height:10vh;
+  }
+  a{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    
+    align-items: center;
+    text-align:center;
+   
+    
+  }
+  a p{
+    padding-left:10px;
+  }
+  
 }
 svg{
   width:vw;
