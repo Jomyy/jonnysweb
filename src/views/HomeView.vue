@@ -35,14 +35,23 @@
 </template>
 <script>
 import { reactive } from "@vue/reactivity";
+
 export default {
-  setup() {},
+  setup() {
+    
+  },
+  mounted(){
+    document.getElementById("header").style.opacity = ((window.innerHeight + document.getElementById("HomeView").getBoundingClientRect().top * 2) / +window.innerHeight).toString();
+  },
   created() {
     window.addEventListener("scroll", this.handleScroll);
+    
+
   },
   destroyed() {
     window.removeEventListener("scroll", this.handleScroll);
   },
+
   methods: {
     handleScroll(event) {
       document.getElementById("header").style.opacity = ((window.innerHeight + document.getElementById("HomeView").getBoundingClientRect().top * 2) / +window.innerHeight).toString();
