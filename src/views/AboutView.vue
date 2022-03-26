@@ -84,17 +84,16 @@ a{
   }
   a{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:center;
-    
+    width:10vh;
+    height:11vh;
     align-items: center;
     text-align:center;
    
     
   }
-  a p{
-    padding-left:10px;
-  }
+  
   
 }
 svg{
