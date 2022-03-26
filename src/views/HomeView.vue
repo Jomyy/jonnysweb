@@ -2,7 +2,7 @@
   <div id="HomeView">
     <div class="home" id="title">
       <h1 id="header">Jonny</h1>
-      <div class="down-arrow" id="downarrow"></div>
+     
     </div>
     <section id="fact1" class="stick">
       <div>
@@ -46,47 +46,14 @@ export default {
   methods: {
     handleScroll(event) {
       document.getElementById("header").style.opacity = ((window.innerHeight + document.getElementById("HomeView").getBoundingClientRect().top * 2) / +window.innerHeight).toString();
-      document.getElementById("downarrow").style.opacity = ((window.innerHeight + document.getElementById("HomeView").getBoundingClientRect().top * 3) / +window.innerHeight).toString();
+      
     },
   },
 };
 </script>
 
 <style scoped>
-.down-arrow {
-  position: absolute;
-  top: calc(100vh - 60px);
-  left: calc(50% - 14px);
-  width: 0;
-  height: 15px;
-  border: 1px solid;
-  border-radius: 2px;
-  animation: jumpInfinite 1.5s infinite;
-}
-@keyframes jumpInfinite {
-  0% {
-    margin-top: 0;
-  }
 
-  50% {
-    margin-top: 10px;
-  }
-  100% {
-    margin-top: 0;
-  }
-}
-.down-arrow:after {
-  content: " ";
-  position: absolute;
-  top: 6px;
-  left: -5px;
-  width: 8px;
-  height: 8px;
-  border-bottom: 2px solid;
-  border-right: 2px solid;
-  border-radius: 1px;
-  transform: rotateZ(45deg);
-}
 #fact2 {
   background-color: fuchsia;
 }
