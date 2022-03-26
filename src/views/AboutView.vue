@@ -11,7 +11,7 @@
   <img src="https://img.icons8.com/ios-filled/200/000000/youtube-music.png" class="hv red"/>
   </a>
   <a href="https://www.youtube.com/c/jonny_ist_haesslich">
-  <img src="https://img.icons8.com/material-rounded/200/000000/youtube-play.png" class="hv red"/>
+  <img src="https://img.icons8.com/ios-filled/200/000000/youtube-play.png" class="hv red"/>
   </a>
   </div>
 </template>
