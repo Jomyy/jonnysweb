@@ -19,7 +19,7 @@
       </div>
 
       <div>
-        <p>I also do video editing, i edited all the videos on my <a href="https://www.youtube.com/c/jonny_ist_haesslich">Youtube</a> channel and manny more!</p>
+        <p>I also do video editing, I edited all the videos on my <a href="https://www.youtube.com/c/jonny_ist_haesslich">Youtube</a> channel and many more!</p>
       </div>
     </section>
     <section id="fact3" class="stick">
