@@ -1,19 +1,4 @@
-# jonny
+# PRODBYJONNY
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+this is my own website and its open source... because, why not?
+see it in <a href="https://schulapi.ddns.net">Action</a>
