@@ -27,7 +27,7 @@ export default {
 <style scoped>
 .hv{
   transition-property: -moz-filter, -ms-filter, -o-filter, -webkit-filter, filter;
-  transition-duration: 200ms;
+  transition-duration: 0ms;
 }
 .orange:hover{
   filter: invert(55%) sepia(72%) saturate(2929%) hue-rotate(337deg) brightness(103%) contrast(104%);
