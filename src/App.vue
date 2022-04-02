@@ -3,7 +3,7 @@
     <div id="prodby">
       <p>PRODBYJONNY</p>
     </div>
-    
+
     <router-link to="/">HOME</router-link> | <router-link to="/about">ABOUT</router-link>
   </nav>
 
@@ -54,10 +54,9 @@ nav {
 }
 nav #prodby {
   position: absolute;
-  
+
   left: 20px;
   text-align: center;
-  
 }
 nav a {
   font-weight: bold;
@@ -65,7 +64,9 @@ nav a {
   padding-left: 10px;
   padding-right: 10px;
 }
-
+nav a:visited {
+  color: blue;
+}
 nav a.router-link-exact-active {
   color: black;
 }
