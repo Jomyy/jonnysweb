@@ -1,6 +1,9 @@
 <template>
   <nav>
-    <p>PRODBYJONNY</p>
+    <div id="prodby">
+      <p>PRODBYJONNY</p>
+    </div>
+    
     <router-link to="/">HOME</router-link> | <router-link to="/about">ABOUT</router-link>
   </nav>
 
@@ -49,9 +52,12 @@ nav {
   align-items: center;
   z-index: 10;
 }
-nav p {
+nav #prodby {
   position: absolute;
+  
   left: 20px;
+  text-align: center;
+  
 }
 nav a {
   font-weight: bold;
